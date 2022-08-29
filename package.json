@@ -4,14 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server1"
+    "s1": "node server1",
+    "s2": "node server2",
+    "insp": "nodemon --inspect index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "finalhandler": "^1.2.0",
+    "nodemon": "^2.0.19",
     "serve-favicon": "^2.5.0"
   }
 }
