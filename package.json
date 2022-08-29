@@ -11,9 +11,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
   "dependencies": {
     "finalhandler": "^1.2.0",
-    "nodemon": "^2.0.19",
     "serve-favicon": "^2.5.0"
   }
 }
